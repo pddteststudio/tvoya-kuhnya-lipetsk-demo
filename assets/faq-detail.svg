@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320" role="img"><defs>
+ <linearGradient id="wal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F5F1E9"/><stop offset="1" stop-color="#DAD7D0"/></linearGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#DBCDBC"/><stop offset="1" stop-color="#AFA18D"/></linearGradient>
+ <linearGradient id="wood" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#BE9674"/><stop offset=".55" stop-color="#987455"/><stop offset="1" stop-color="#71523F"/></linearGradient>
+ <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7F5EE"/><stop offset=".6" stop-color="#DCDCD4"/><stop offset="1" stop-color="#BBBDB5"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5E6664"/><stop offset="1" stop-color="#323A3A"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F4F4ED"/><stop offset=".4" stop-color="#B8CAC9"/><stop offset=".6" stop-color="#F7F5EE"/><stop offset="1" stop-color="#A7BABA"/></linearGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".8"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+ <filter id="shad" x="-30%" y="-50%" width="180%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+ <filter id="lightShad" x="-30%" y="-50%" width="180%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+ <pattern id="grain" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M1 3h3M5 10h2M10 6h1" stroke="#3B3025" stroke-width=".45" opacity=".11"/></pattern>
+ <pattern id="concrete" width="34" height="28" patternUnits="userSpaceOnUse"><path d="M0 14h9M17 25h7M28 6h5" stroke="#5F6460" opacity=".13"/><circle cx="14" cy="8" r=".7" fill="#515854" opacity=".24"/></pattern>
+ </defs><rect width="520" height="320" fill="none"/><g transform="translate(60 25) rotate(-8 94 132)"><rect width="184" height="270" rx="9" fill="url(#wood)" stroke="#886B52" stroke-width="4"/><rect x="14" y="14" width="156" height="242" fill="url(#grain)"/></g><g transform="translate(206 28) rotate(6 92 131)"><rect width="186" height="266" rx="10" fill="#D5D0C6" stroke="#AEA89B" stroke-width="4"/><path d="M22 39h145m-145 43h145m-145 43h145m-145 43h145m-145 43h145" stroke="#C1BAAF" stroke-width="3" opacity=".32"/></g><g transform="translate(340 84) rotate(14 65 100)"><rect width="125" height="218" rx="10" fill="#67756D" stroke="#465950" stroke-width="4"/></g></svg>

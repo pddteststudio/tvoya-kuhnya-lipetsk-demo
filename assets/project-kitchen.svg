@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img"><defs>
+ <linearGradient id="wal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F5F1E9"/><stop offset="1" stop-color="#DAD7D0"/></linearGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#DBCDBC"/><stop offset="1" stop-color="#AFA18D"/></linearGradient>
+ <linearGradient id="wood" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#BE9674"/><stop offset=".55" stop-color="#987455"/><stop offset="1" stop-color="#71523F"/></linearGradient>
+ <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7F5EE"/><stop offset=".6" stop-color="#DCDCD4"/><stop offset="1" stop-color="#BBBDB5"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5E6664"/><stop offset="1" stop-color="#323A3A"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F4F4ED"/><stop offset=".4" stop-color="#B8CAC9"/><stop offset=".6" stop-color="#F7F5EE"/><stop offset="1" stop-color="#A7BABA"/></linearGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".8"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+ <filter id="shad" x="-30%" y="-50%" width="180%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+ <filter id="lightShad" x="-30%" y="-50%" width="180%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+ <pattern id="grain" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M1 3h3M5 10h2M10 6h1" stroke="#3B3025" stroke-width=".45" opacity=".11"/></pattern>
+ <pattern id="concrete" width="34" height="28" patternUnits="userSpaceOnUse"><path d="M0 14h9M17 25h7M28 6h5" stroke="#5F6460" opacity=".13"/><circle cx="14" cy="8" r=".7" fill="#515854" opacity=".24"/></pattern>
+ </defs><rect width="900" height="650" fill="#E6E1D8"/><path d="M0 0H900V481L468 520 0 448Z" fill="url(#wal)"/><path d="M0 448 468 520 900 481V650H0Z" fill="url(#floor)"/><path d="M0 448 468 520 900 481" fill="none" stroke="#fff" stroke-width="4" opacity=".5"/>
+  <path d="M0 110 306 88 306 500 0 448Z" fill="#E2DDD5"/><path d="M0 110 306 88" stroke="#fff" stroke-width="4" opacity=".45"/>
+  <path d="M306 88 828 65 828 488 306 500Z" fill="#F2EDE5"/><path d="M828 65 900 85V481 828 488Z" fill="#D2CDC5"/>
+  <!-- Window and sunlit sky -->
+  <rect x="360" y="115" width="198" height="260" rx="4" fill="#DAD5CA" stroke="#DDD8CE" stroke-width="10"/><rect x="374" y="127" width="171" height="240" fill="#C4D5D1"/><path d="M374 292q75-120 165 0v46h-165Z" fill="#97A9A0"/><path d="M454 127V377" stroke="#F4F2E8" stroke-width="9"/><path d="M374 254H544" stroke="#F4F2E8" stroke-width="8"/>
+  <!-- Upper cabinets -->
+  <rect x="50" y="112" width="279" height="172" fill="#DDDCD6" stroke="#C7BCAE" stroke-width="3"/>
+  <path d="M144 112V284M238 112V284" stroke="#C3BBAE" stroke-width="2"/>
+  <path d="M328 112l22-11v172l-22 11Z" fill="#BCB5A8"/>
+  <rect x="621" y="90" width="202" height="205" fill="#585E5E" stroke="#695B4D" stroke-width="3"/><path d="M722 90V295" stroke="#C4A994" stroke-width="2"/>
+  <!-- Lower cabinetry and worktops -->
+  <rect x="50" y="312" width="297" height="153" fill="#858889"/><path d="M135 312V465M225 312V465" stroke="#9B8775" stroke-width="2"/>
+  <path d="M44 310h310l-4 13h-310Z" fill="url(#stone)"/>
+  <rect x="603" y="299" width="220" height="188" fill="#585E5E"/><path d="M675 299v188m72-188v188" stroke="#C5A88D" stroke-width="2"/><path d="M594 296h230l2 14h-234Z" fill="url(#stone)"/>
+  <!-- Island shadow and cabinetry -->
+  <ellipse cx="432" cy="520" rx="261" ry="36" fill="#4B413A" opacity=".18" filter="url(#shad)"/>
+  <path d="M220 364 531 351 688 413 405 452Z" fill="url(#stone)" stroke="#C3C4B9" stroke-width="3"/>
+  <path d="M405 452 688 413 681 543 405 600Z" fill="#858889" stroke="#907F6F" stroke-width="2"/>
+  <path d="M220 364 405 452 405 600 229 510Z" fill="#585E5E"/>
+  <path d="M486 440v138m108-155v135" stroke="#8C7867" stroke-width="2"/>
+  <path d="M220 364 531 351 688 413 405 452Z" fill="url(#grain)" opacity=".18"/>
+  <!-- kitchen utensils -->
+  <ellipse cx="518" cy="381" rx="25" ry="7" fill="#535B51"/><ellipse cx="518" cy="374" rx="21" ry="5" fill="#D4D6CC"/>
+  <path d="M504 374q-10-35 4-44m11 44q8-38-2-42" stroke="#6F876B" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- pendants -->
+  <path d="M356 0v150m261-150v150" stroke="#554A40" stroke-width="3"/>
+  <path d="M310 156q45-83 90 0Z M576 156q41-80 82 0Z" fill="#484B48"/>
+  <ellipse cx="356" cy="156" rx="40" ry="7" fill="#DBCCAB"/>
+  <ellipse cx="616" cy="156" rx="36" ry="7" fill="#DBCCAB"/>
+  <g opacity=".55"><path d="M310 156q-44 85 0 135h90q44-50 0-135Z" fill="#FFF5D1" opacity=".13"/><path d="M576 156q-44 85 0 135h82q41-50 0-135Z" fill="#FFF5D1" opacity=".12"/></g>
+  <!-- subtle sun patch -->
+  <path d="M369 455 513 396 756 585 594 604Z" fill="#FFFFFF" opacity=".05"/>
+  <path d="M48 310h260v14H48Z" fill="url(#concrete)" opacity=".5"/></svg>
